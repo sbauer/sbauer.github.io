@@ -5,6 +5,7 @@
 layout: home
 title: ShaneBauer.com
 feature_image: "/images/camden-yards.jpg"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
-### Hello
+#### Hi, I'm Shane
+
+I'm an experienced software developer based out of Baltimore, Maryland. I spend most of my time working on web-based software applications. I have developed applications for small and large businesses. 
