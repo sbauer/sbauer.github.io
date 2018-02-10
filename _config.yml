@@ -13,16 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
 title: Shane Bauer
 email: shane@shanebauer.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.shanebauer.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sbauer318
 github_username:  sbauer
 logo: "fdf"
 sass:
   style: compressed # Style compression
+social: # jekyll-seo-tag > social overrides
+  name: Shane Bauer # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/sbauer318
+    - https://www.facebook.com/shane.bauer
+    - https://www.linkedin.com/in/sbauer318
+    - https://github.com/sbauer
 
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Eastern Standard Time # Timezone for blog posts and alike
 # Build settings
 markdown: kramdown
 remote_theme: daviddarnes/alembic
@@ -30,7 +42,10 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
-
+defaults:
+  -
+    values:
+      image: "/assets/default-social-image.png" 
 navigation_header:
   Home: /
   About: /about
