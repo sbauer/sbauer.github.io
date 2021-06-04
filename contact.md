@@ -6,5 +6,3 @@ feature_image: "/images/streets.jpg"
 ---
 
 Email: shane [at] shanebauer.com
-
-Skype: sbauer318

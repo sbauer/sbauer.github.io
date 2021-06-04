@@ -46,11 +46,17 @@ defaults:
   -
     values:
       image: "/assets/default-social-image.png" 
+
 navigation_header:
-  Home: /
-  About: /about
-  Projects: /projects
-  Contact: /contact
+- title: Home
+  url: /
+- title: About
+  url: /about
+- title: Projects
+  url: /projects
+- title: Contact
+  url: /contact
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
