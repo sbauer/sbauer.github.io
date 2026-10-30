@@ -8,4 +8,4 @@ feature_image: "/images/camden-yards.jpg"
 ---
 #### Hi, I'm Shane
 
-I'm an experienced software developer based out of Baltimore, Maryland. I spend most of my time working on web-based software applications.
+I'm an engineering manager at GitHub based out of Baltimore, Maryland, where I work on repos and governance.
